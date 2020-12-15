@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url('../img/bg-2.png');
+}
+
+.login{
+    width: 1140px;
+    
+}
+
+.login header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.login header img{
+    float: left;
+}
+
+.login header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.login header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.login header li{
+    padding: 10px;
+}
+
+/* ACA TERMINA EL HEADER */
+
+/* ACA COMIENZA EL MAIN */
+
+.login main{
+    width: 350px;
+}
+
+.login main h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin: 40px;
+    overflow: hidden;
+}
+
+.login main form div.ingreso{
+    text-transform: capitalize;
+}
+
+.login main form div.ingreso div.email label{
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.login main form div.ingreso input{
+    width: 100%;
+    border: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;    
+}
+
+.login main form div.recordar p{
+    width: 120px;
+    float: right;
+    margin-top: 20px;
+    color: black;
+}
+
+.login main form p{
+    margin-top: 70px;
+    color: red;
+}
+
+.login main form div.boton button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: royalblue;
+    font-weight: bold;
+    border: royalblue;
+    border-radius: 10px;
+}

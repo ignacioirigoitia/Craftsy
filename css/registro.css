@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.registro a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url('../img/bg-2.png');
+}
+
+.registro{
+    width: 1140px;
+    
+}
+
+.registro header{
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.registro header img{
+    float: left;
+}
+
+.registro header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.registro header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.registro header li{
+    padding: 10px;
+}
+
+/* ACA TERMINA EL HEADER */
+
+/* ACA COMIENZA EL MAIN */
+
+.registro main{
+    width: 350px;
+    margin-top: 40px;
+}
+
+.registro main form h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.registro main form div.name{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.registro main form div.name label{
+    text-transform: capitalize;
+}
+
+.registro main form div.name input{
+    width: 100%;
+    border: grey;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.registro main form div.name p{
+    color: red;
+}
+
+.registro main form div.pais h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.registro main form div.pais select{
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+.registro main form div.pais p{
+    color: red;
+}
+
+.registro main form div.gen h2{
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.registro main form div.final{
+    margin: 15px 0;
+}
+
+.registro main form div.gen textarea{
+    width: 70%;
+}
